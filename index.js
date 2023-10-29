@@ -18,7 +18,7 @@ const { request } = require('express');
 app.get('/', callName)
 async function callName(req, res) {
   console.log(req.query.text)
-  //  try {
+   try {
   //  const data = {
     //  "PERSON": "X",
     //  "AGE": 35,
@@ -41,3 +41,5 @@ app.listen(app.get('port'), async function() {
   console.log("Node app is running at localhost:" + app.get('port'))
   
 })
+
+
