@@ -29,7 +29,7 @@ async function callName(req, res) {
   // }
   // // res.send(data)
     // const resp = await axios.get('http://127.0.0.1:8010/retirewell/?text='+req.query.text)   
-    const resp = await axios.get('http://13.235.18.174:8000/retirewell/?text='+req.query.text)    
+    const resp = await axios.get('http://13.127.19.216:8000/retirewell/?text='+req.query.text)    
     res.send(resp.data)    
 
   } catch (error) {
